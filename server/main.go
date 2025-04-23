@@ -7,8 +7,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"task-recorder-server/config"
-	"task-recorder-server/routes"
+	"github.com/ArthurRod/task-recorder/server/config"
+	"github.com/ArthurRod/task-recorder/server/routes"
 )
 
 

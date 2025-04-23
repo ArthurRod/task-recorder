@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"task-recorder-server/services"
-	"task-recorder-server/utils"
+	"github.com/ArthurRod/task-recorder/server/services"
+	"github.com/ArthurRod/task-recorder/server/utils"
 
 	"github.com/gorilla/mux"
 )

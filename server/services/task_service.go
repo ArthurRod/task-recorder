@@ -3,8 +3,9 @@ package services
 import (
 	"io"
 	"os"
-	"task-recorder-server/models"
-	"task-recorder-server/utils"
+
+	"github.com/ArthurRod/task-recorder/server/models"
+	"github.com/ArthurRod/task-recorder/server/utils"
 )
 
 func GetTasks() ([]models.Task, error) {

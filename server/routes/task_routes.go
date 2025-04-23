@@ -3,7 +3,7 @@ package routes
 import (
 	"net/http"
 
-	"task-recorder-server/controllers"
+	"github.com/ArthurRod/task-recorder/server/controllers"
 
 	"github.com/gorilla/mux"
 )

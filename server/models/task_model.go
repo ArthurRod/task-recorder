@@ -1,7 +1,7 @@
 package models
 
 import (
-	"task-recorder-server/config"
+	"github.com/ArthurRod/task-recorder/server/config"
 )
 
 type Task struct {
