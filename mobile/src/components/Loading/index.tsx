@@ -4,13 +4,15 @@ export function Loading() {
   return (
     <View
       style={{
-        flex: 1,
+        position: "absolute",
+        width: "100%",
+        height: "100%",
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#09090A",
+        backgroundColor: "rgba(150, 150, 150, 0.7)",
       }}
     >
-      <ActivityIndicator color="#7C3AED" />
+      <ActivityIndicator color="black" size="large" />
     </View>
   );
 }
